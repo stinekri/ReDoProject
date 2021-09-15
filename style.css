@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    width: 100vw;
+    /* margin: 20px; */
+} 
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border: black;
+    padding: 0;
+    margin: 20px;
+}
+header {
+    border-bottom: lightgray solid 1px;
+}
+.first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 20%;
+}
+
+.mainProduct {
+    display: flex;
+    justify-content: space-evenly;
+    border:lightgray solid 1px;
+} 
+
+/* NOT THE SAME IMG VALUES AS IN CSS2*/
+
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}  
+
+button {
+    border-radius: 10px;
+    height: 30px;
+    font-size: 12px;
+    align-items: center;
+}
+
+
+/* .all {
+     box-sizing: border-box; 
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(150px 800px));
+     gap: 2rem;
+ } */
+
+ /* .mainProduct {
+     display: flex;
+     justify-content: space-around;
+ } */
+
+ .title {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+  }
+
+ h3 {
+     font-size: 10px;
+     text-align: center;
+     color: gray;
+ }
+
+ h4 {
+     font-size: 18px;
+ }
+
+ .log, .save {
+     background-color: red;
+     color: white;
+ }
+
+ .arrow {
+     background-color: white;
+ }
+
+ .epic {
+     border-top: lightgray;
+     margin-top: 30%;
+     margin-bottom: -15%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .see {
+     color: gray;
+     font-size: 12px;
+ }
+
+
+ .products {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+     gap: 5%;
+     margin: 5%;
+ }
+
+ .rate {
+     text-align: end;
+ }
+
+ .button2 {
+     background-color: black;
+     width: 15%;
+ }
+
+ .footer {
+     display: grid;
+     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+     margin-top: 20%;
+     background-color: lightgray;
+     position: sticky;
+ }
+
+ .footer1 {
+     text-align: center;
+     margin-top: 10%;
+ }
+
+
+.copyright {
+    text-align: center;
+    color: gray;
+    border-top: gray solid 1px;
+    background-color: lightgray;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+
+
